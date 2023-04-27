@@ -1,31 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae de Bruce Wayne</title>
-  </head>
-  <body>
-    <h1>Curriculum Vitae de Bruce Wayne</h1>
-    <img src="images/Bruce_Wayne.jpg" />
-    <h2>Datos personales</h2>
-    <ul>
-      <li>Nombre completo: <strong>Bruce Wayne</strong></li>
-      <li>Fecha de nacimiento: <strong>1/5/1939</strong></li>
-      <li>Lugar de nacimiento: <strong>Gotham City</strong></li>
-    </ul>
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
 
-    <h2>Formación académica</h2>
-    <ul>
-      <li>1956-1961: <strong>Universidad del Espantapájaros</strong></li>
-      <li>1952-1956: <strong>Instituto de Dos Caras</strong></li>
-      <li>1944-1952: <strong>Escuela Primaria del Joker</strong></li>
-    </ul>
+<body>
+    <div id="content">
+        <div id="content-header">
+            <div id="content-img">
+                <div id="div-img">
+                    <!--<img src="images/Bruce_Wayne.jpg" />-->
+                </div>
+                <h2 id="nombre-text">Bruce Wayne</h2>
+            </div>
 
-    <h2>Experiencia laboral</h2>
-    <ul>
-      <li>1975-1985: <strong>En el paro</strong></li>
-      <li>1965-1975: <strong>Cazavillanos y demás chusma</strong></li>
-      <li>1962-1965: <strong>Aprendiz de superhéroe</strong></li>
-    </ul>
-  </body>
+            <ul class="list-header">
+                <li>Datos personales</li>
+                <br>
+                <ul class="list-child">
+                    <li>Nombre completo: <strong>Bruce Wayne</strong></li>
+                    <li>Fecha de nacimiento: <strong>1/5/1939</strong></li>
+                    <li>Lugar de nacimiento: <strong>Gotham City</strong></li>
+                </ul>
+            </ul>
+
+            <ul class="list-header">
+                <li>HOBBIE</li>
+                <br>
+                <ul class="list-child">
+                    <li>Nadar</li>
+                    <li>Leer</li>
+                    <li>Cantar</li>
+                </ul>
+            </ul>
+        </div>
+        
+        <div id="content-body">
+            <div class="content-presentation">
+                <h3 id="presentation-1"><strong>Desarrollador FullStack Javascripst jr</strong></h3>
+                <p id="presentation-2">Mis objetivos académicos radican en graduarme de la Universidad de Cartagena como
+                    Ingeniera de Software. Mi
+                    enfoque laboral apunta al área de Desarrollo Web, desarrollo Full Stack o áreas afines a mis
+                    estudios.</p>
+            </div>
+
+            <div class="content-presentation">
+                <div class="titulo-content">
+                    EDUCACIÓN
+                </div>
+                <ul class="list-header-expe">
+                    <ul class="list-exper">
+                        <li>1956-1961: <strong>Universidad del Espantapájaros</strong></li>
+                        <li>1952-1956: <strong>Instituto de Dos Caras</strong></li>
+                        <li>1944-1952: <strong>Escuela Primaria del Joker</strong></li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="content-presentation">
+                <div class="titulo-content">
+                    EXPERIENCIA
+                </div>
+                <ul class="list-header-expe">
+                    <li>1975-1985: <strong>En el paro</strong></li>
+                    <li>1965-1975: <strong>Cazavillanos y demás chusma</strong></li>
+                    <li>1962-1965: <strong>Aprendiz de superhéroe</strong></li>
+                </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
